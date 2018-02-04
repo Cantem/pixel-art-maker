@@ -1,0 +1,115 @@
+body {
+  text-align: center;
+  font-family: Impact;
+  background: url(http://www.powerpointhintergrund.com/uploads/depicts-nature-background-20.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* EXTRA: Make website edge to edge */
+  margin: 0 auto;
+  width: 100%;
+  padding: 0%;
+}
+
+main {
+  min-height: calc(100% - 30px);
+}
+
+h1 {
+  font-family: Impact;
+  font-size: 50px;
+  margin: 0.2em;
+  background: radial-gradient(circle, #fff, transparent);
+  padding: 12px 2%;
+}
+
+h2 {
+  margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+  margin-top: 0.5em;
+}
+
+/* PANELS*/
+section {
+  padding: 0%;
+  border: 2px black solid;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 0%;
+  border-radius: 0.5em;
+}
+
+#menu {
+  float: left;
+  width: 25%;
+  margin: 2em;
+}
+
+/* DESIGN CANVAS PANEL*/
+tr,
+td {
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 20px;
+  width: 20px;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  /* Make Canvas edge to edge */
+  margin: 0 auto;
+}
+
+#button,
+#resetButton,
+#eraseAllCells {
+  font-family: "Arial";
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #1b1b1c;
+  border: none;
+  border-radius: 50px;
+}
+
+input[type="number"] {
+  width: 10;
+}
+
+#canvas {
+  font-family: Impact;
+  font-size: 50px;
+  margin: 0.2em;
+  background: radial-gradient(circle, #fff, transparent);
+  padding: 12px 2%;
+  border-radius: 0.5em;
+  display: inline-block;
+  position: relative;
+}
+
+#resetColor {
+  background-color: white;
+}
+/*
+---------------------------------------
+#FOOTER
+---------------------------------------
+*/
+#udacityLogo {
+  width: 10%;
+  height: 10%;
+  margin: 0em 0em -1em 0em;
+}
+
+footer {
+  clear: both;
+  font-family: Arial;
+  font-size: 16px;
+  margin: 0.2em;
+  background: radial-gradient(circle, #fff, transparent);
+  padding: 12px 5%;
+}
